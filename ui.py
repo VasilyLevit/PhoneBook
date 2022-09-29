@@ -3,4 +3,9 @@ def get_comand():
     return input('Введите номер операции: ')
 
 def get_data():
-    return input('Введите фамилию: ')
+    book_entry = []
+    book_entry.append(input('Введите фамилию: '))
+    book_entry.append(input('Введите имя: '))
+    book_entry.append(input('Введите номер телефона: '))
+    book_entry.append(input('Введите описание: '))
+    return book_entry
